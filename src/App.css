@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
   color: white;
 }
 
@@ -28,11 +28,61 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.splashPage {
+  background-image: url(https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  height: 95vh;
+  color: white;
+  display: flex;
+}
+
+.imgTextContainer {
+  margin: auto;
+  width: 50%;
+
+  padding: 10px;
+}
+
+.downloads {
+  background-color: white;
+  border-radius: 10px;
+  width: 25%;
+  height: 15%;
+}
+
+.downloads > a {
+  text-decoration: none;
+  color: black;
+}
+
+.apple {
+  margin-bottom: 3%;
+}
+
+.windows {
+  margin-bottom: 3%;
+}
+
+.h1Logo {
+  font-size: 4rem !important;
+}
+.h2Logo {
+  font-size: 3rem !important;
+}
+
+.howTo {
+  height: 50vh;
+  color: white;
+  display: flex;
+}
+
+.howTo > div > h1 {
+  justify-content: center;
+}
+
+.aboutUs {
+  height: 50vh;
 }
