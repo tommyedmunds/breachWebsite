@@ -36,7 +36,7 @@ export default function HomePage(props) {
           </div>
         </div>
       </section>
-      <section className='howTo'>
+      <section className='howTo' id='test1'>
         <Container>
           <Row>
             <Col sm={4} xs={12} className='col'>
@@ -74,7 +74,7 @@ export default function HomePage(props) {
         </Container>
       </section>
 
-      <section className='aboutUs'>
+      <section className='aboutUs' id='test2'>
         <h1 className='text-uppercase font-weight-bold'>About The Team</h1>
         <Container>
           <Row>
@@ -103,7 +103,7 @@ export default function HomePage(props) {
         </Container>
       </section>
 
-      <Footer />
+      <Footer id='test3' />
     </div>
   );
 }

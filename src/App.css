@@ -126,6 +126,10 @@ Body {
   border-radius: 50%;
 }
 
+.link {
+  color: black;
+}
+
 @media screen and (max-width: 720px) {
   .h1Logo {
     font-size: 40px !important;
