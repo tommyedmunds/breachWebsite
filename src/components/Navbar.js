@@ -1,16 +1,16 @@
 import { React } from 'react';
-import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import logo from '../img/logo.png';
-import { Link, animateScroll as scroll } from 'react-scroll';
+//import { Link, animateScroll as scroll } from 'react-scroll';
 
 export default function NavHeader(props) {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
 
-  const scrollToBottom = () => {
-    window.scrollBy(0, 199);
-  };
+  // const scrollToBottom = () => {
+  //   window.scrollBy(0, 199);
+  // };
 
   return (
     <Navbar bg='light' expand='lg' sticky='top' className='navbar'>

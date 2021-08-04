@@ -11,7 +11,7 @@ import tommy from '../img/tommy.png';
 import jason from '../img/jason_y.png';
 import michael from '../img/michael.jpeg';
 import Footer from '../components/Footer';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 export default function HomePage(props) {
   return (
