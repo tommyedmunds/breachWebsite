@@ -1,16 +1,9 @@
+Body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -49,6 +42,7 @@
 .downloads {
   background-color: white;
   border-radius: 10px;
+  min-width: 175px;
   width: 25%;
   height: 15%;
 }
@@ -74,15 +68,85 @@
 }
 
 .howTo {
-  height: 50vh;
+  height: 60vh;
   color: white;
-  display: flex;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #ff3b3f;
 }
 
-.howTo > div > h1 {
-  justify-content: center;
+.textParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.col {
+  margin-top: 5%;
+  height: 100%;
+  width: 33%;
+  padding: 10px;
+  flex: 1 3 15%;
+}
+
+.col > h2 {
+  padding-top: 14%;
+}
+
+.text > p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  padding-top: 10%;
+
+  padding-bottom: 10%;
+  /* padding-top: 10%;
+  padding-bottom: 10%; */
+}
+
+.imgDiv {
+  height: 200px;
 }
 
 .aboutUs {
-  height: 50vh;
+  height: 65.5vh;
+  background-color: #efefef;
+}
+
+.aboutUs > h1 {
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+.person {
+  width: 35%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 720px) {
+  .h1Logo {
+    font-size: 40px !important;
+  }
+
+  .h2Logo {
+    font-size: 30px !important;
+  }
+
+  .howTo {
+    height: 190vh;
+  }
+
+  .aboutUs {
+    height: 150vh;
+  }
+
+  .engineer {
+    padding-top: 10%;
+  }
 }
