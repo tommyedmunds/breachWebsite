@@ -28,23 +28,33 @@ const FooterPagePro = () => {
               style={{ width: '60px' }}
             />
             <p>
-              <a href='#!' className='dark-grey-text'>
+              <a href='https://reactjs.org/' className='dark-grey-text'>
                 React
               </a>
             </p>
             <p>
-              <a href='#!' className='dark-grey-text'>
+              <a href='https://www.electronjs.org/' className='dark-grey-text'>
                 Electron
               </a>
             </p>
             <p>
-              <a href='#!' className='dark-grey-text'>
+              <a href='https://nodejs.org/en/' className='dark-grey-text'>
                 Node
               </a>
             </p>
             <p>
-              <a href='#!' className='dark-grey-text'>
+              <a href='https://expressjs.com/' className='dark-grey-text'>
                 Express
+              </a>
+            </p>
+            <p>
+              <a href='https://github.com/axios/axios' className='dark-grey-text'>
+                Axios
+              </a>
+            </p>
+            <p>
+              <a href='https://material-ui.com/' className='dark-grey-text'>
+                Material UI
               </a>
             </p>
           </MDBCol>
@@ -57,12 +67,15 @@ const FooterPagePro = () => {
               style={{ width: '60px' }}
             />
             <p>
-              <a href='#!' className='dark-grey-text'>
+              <a href='https://github.com/oslabs-beta/Breach' className='dark-grey-text'>
                 Download
               </a>
             </p>
             <p>
-              <a href='#!' className='dark-grey-text'>
+              <a
+                href='https://github.com/oslabs-beta/Breach/blob/main/README.md'
+                className='dark-grey-text'
+              >
                 Documentation
               </a>
             </p>

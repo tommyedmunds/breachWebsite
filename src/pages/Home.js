@@ -84,6 +84,7 @@ export default function HomePage(props) {
               <br></br>
               <h4>Michael Geismar</h4>
               <h6>Fullstack Developer</h6>
+              <p>JavaScript, React, Node, Electron</p>
             </Col>
             <Col sm={4} xs={12} className='engineer'>
               <img src={tommy} alt='tommy edmunds' className='person' />
@@ -91,6 +92,7 @@ export default function HomePage(props) {
               <br></br>
               <h4>Tommy Edmunds</h4>
               <h6>Fullstack Developer</h6>
+              <p>React, Express, Puppeteer, Node</p>
             </Col>
             <Col sm={4} xs={12} className='engineer'>
               <img src={jason} alt='jason yoon' className='person' />
@@ -98,6 +100,7 @@ export default function HomePage(props) {
               <br></br>
               <h4>Jason Yoon</h4>
               <h6>Fullstack Developer</h6>
+              <p>React, UX Designer</p>
             </Col>
           </Row>
         </Container>

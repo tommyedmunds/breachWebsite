@@ -114,6 +114,7 @@ Body {
 .aboutUs {
   height: 65.5vh;
   background-color: #efefef;
+  padding-bottom: 5%;
 }
 
 .aboutUs > h1 {
